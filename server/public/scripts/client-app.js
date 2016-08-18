@@ -18,7 +18,7 @@ function getAnimals() {
     },
 
     error: function (response) {
-      console.log('GET /animals fail. No books could be retrieved!');
+      console.log('GET /animals fail. No animals could be retrieved!');
     },
   });
 }
